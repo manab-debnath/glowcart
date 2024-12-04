@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import Dummy from "../assets/Images/500x400.png"
 
 const About = () => {
 	const navigate = useNavigate();
@@ -22,7 +23,7 @@ const About = () => {
 				{/* Image Section */}
 				<div className="w-full lg:w-1/2">
 					<img
-						src="https://via.placeholder.com/500x400"
+						src={Dummy}
 						alt="Our Store"
 						className="w-full h-auto rounded-lg shadow-lg"
 					/>
